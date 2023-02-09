@@ -50,7 +50,7 @@ textarea {
   font: inherit;
 }
 .body {
-  background-color: var(--bg-color-gray);
+  background-color: var(--color-white);
 }
 .text-white {
   color: var(--color-white);

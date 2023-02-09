@@ -7,7 +7,11 @@ $(".lang").click(function () {
   $(this).addClass("active");
 });
 
+$("#firstSlider").slick({
+  dots: true,
+  arrows: false,
+});
+
 $(".burger").click(function () {
-  $(".wrap").toggleClass("addition");
-  $(".clients-wrap").toggleClass("addition");
+  $(".content").toggleClass("z-1");
 });

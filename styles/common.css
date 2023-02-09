@@ -130,6 +130,7 @@
 }
 /*----------footer------*/
 .footer {
+  background-color: var(--bg-color-gray);
   padding-top: var(--container-space);
 }
 .footer .container {

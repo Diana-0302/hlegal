@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hlegal</title>
+    <link rel="stylesheet" href="./assets/slick/slick.css">
+    <link rel="stylesheet" href="./assets/slick/slick-theme.css">
     <link rel="stylesheet" href="./fonts/font.css">
     <link rel="stylesheet" href="./styles/common.css">
     <link rel="stylesheet" href="./styles/homepage.css">
@@ -148,10 +150,10 @@
                 </svg>
             </a>
         </section>
-        <section id="tabs" class="section-tabs">
+        <section id="tabs" class="section-tabs content z-1">
             <div class="container">
                 <div class="wrap-tabs flex align-items-start">
-                    <div class="wrap addition">
+                    <div class="wrap">
                         <div class="nav flex nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             <button class="nav-link active hover-pink" id="v-pills-home-tab" data-bs-toggle="pill"
                                 data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
@@ -218,7 +220,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-cards">
+        <section class="section-service content z-1">
             <div class="container wide">
                 <p class="link-more space-1px hover-pink"><a href="./pages/services.html">Services</a> <svg width="8"
                         height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -514,31 +516,72 @@
 
 
     <main class="main">
-        <section class="section-slider">
+        <section class="section-slider content z-1">
             <div class="container wide">
-                <div class="card-slider flex">
-                    <img src="./images/Team/Team-1.jpg" alt="Team" class="team-img">
-                    <div class="slider-desc">
-                        <div class="slider-title">
-                            <p class="link-more space-1px hover-pink"><a href="./pages/services.html">команда</a> <svg
-                                    width="8" height="11" viewBox="0 0 8 11" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path class="svg-more" d="M1.5 1L6 5.5L1.5 10" stroke="#24A3FF" stroke-width="2" />
-                                </svg>
-                            </p>
-                            <h3 class="title">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну,
-                                вчасну
-                                допомогу, навіть у ситуаціях, коли більшість безсилі.</h3>
+                <div id="firstSlider">
+                    <div class="card-slider flex">
+                        <img src="./images/Team/Team-1.jpg" alt="Team" class="team-img">
+                        <div class="slider-desc">
+                            <div class="slider-title">
+                                <p class="link-more space-1px hover-pink"><a href="./pages/services.html">команда</a>
+                                    <svg width="8" height="11" viewBox="0 0 8 11" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path class="svg-more" d="M1.5 1L6 5.5L1.5 10" stroke="#24A3FF"
+                                            stroke-width="2" />
+                                    </svg>
+                                </p>
+                                <h3 class="title">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну,
+                                    вчасну
+                                    допомогу, навіть у ситуаціях, коли більшість безсилі.</h3>
+                            </div>
+                            <p class="text-gray">Олександр Олександровський</p>
+                            <p class="job">Керуючий партнер</p>
                         </div>
-                        <p class="text-gray">Олександр Олександровський</p>
-                        <p class="job">Керуючий партнер</p>
+                    </div>
+                    <div class="card-slider flex">
+                        <img src="./images/Team/Team-2.jpg" alt="Team" class="team-img">
+                        <div class="slider-desc">
+                            <div class="slider-title">
+                                <p class="link-more space-1px hover-pink"><a href="./pages/services.html">команда</a>
+                                    <svg width="8" height="11" viewBox="0 0 8 11" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path class="svg-more" d="M1.5 1L6 5.5L1.5 10" stroke="#24A3FF"
+                                            stroke-width="2" />
+                                    </svg>
+                                </p>
+                                <h3 class="title">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну,
+                                    вчасну
+                                    допомогу, навіть у ситуаціях, коли більшість безсилі.</h3>
+                            </div>
+                            <p class="text-gray">Євген Патриков</p>
+                            <p class="job">Equity partner, Attorney-at-law</p>
+                        </div>
+                    </div>
+                    <div class="card-slider flex">
+                        <img src="./images/Team/Team-5.jpg" alt="Team" class="team-img">
+                        <div class="slider-desc">
+                            <div class="slider-title">
+                                <p class="link-more space-1px hover-pink"><a href="./pages/services.html">команда</a>
+                                    <svg width="8" height="11" viewBox="0 0 8 11" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path class="svg-more" d="M1.5 1L6 5.5L1.5 10" stroke="#24A3FF"
+                                            stroke-width="2" />
+                                    </svg>
+                                </p>
+                                <h3 class="title">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну,
+                                    вчасну
+                                    допомогу, навіть у ситуаціях, коли більшість безсилі.</h3>
+                            </div>
+                            <p class="text-gray">Оксана Кобзар</p>
+                            <p class="job">Equity partner, Attorney-at-law</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section-clients">
+        <section class="section-clients content z-1">
             <p class="clients-title space-1px">They already trust us</p>
-            <div class="clients-wrap addition">
+            <div class="clients-wrap">
                 <div class="card-client">
                     <img src="./images/Clients/hillel.png" alt="Clients">
                 </div>
@@ -580,7 +623,7 @@
 
 
         </section>
-        <section class="section-publications">
+        <section class="section-publications content z-1">
             <div class="container wide">
                 <p class="link-more space-1px hover-pink"><a href="./pages/services.html">Publications</a> <svg
                         width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -630,8 +673,7 @@
 
 
 
-
-    <footer class="footer">
+    <footer class="footer content z-1">
         <div class="container wide">
             <div class="footer-wrap grid">
                 <div class="item-d flex">
@@ -666,6 +708,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
     <script src="./js/jquery-3.6.3.min.js"></script>
+    <script src="./assets/slick/slick.min.js"></script>
     <script src="./js/script.js"></script>
 </body>
 
