@@ -110,6 +110,7 @@ body.dark .header {
   padding-top: 30px;
 }
 .underline {
+  border: none;
   height: 2px;
   background-color: var(--separator-color-gray);
 }

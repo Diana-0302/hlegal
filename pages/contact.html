@@ -8,6 +8,7 @@
     <title>hlegal/contact</title>
     <link rel="stylesheet" href="../fonts/font.css">
     <link rel="stylesheet" href="../styles/common.css">
+    <link rel="stylesheet" href="../styles/contact.css">
 </head>
 
 <body class="body">
@@ -118,8 +119,7 @@
                                 </li>
                                 <li class="nav-item"><a href="../pages/publications.html"
                                         class="nav-link">publications</a></li>
-                                <li class="nav-item"><a href="../pages/contact.html"
-                                        class="nav-link current-page">contact</a></li>
+                                <li class="nav-item current-page"><a href="#" class="nav-link ">contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -127,6 +127,60 @@
             </div>
         </div>
     </header>
+    <main class="main">
+        <section class="contact-section">
+            <div class="container flex">
+                <div class="wrapper flex flex-column gap-30">
+                    <p class="size-19 f-weight-400">Kyiv, <br> Mechnikova str., 14/1</p>
+                    <hr class="underline">
+                    <div class="flex gap-15 flex-column">
+                        <a href="tel:0800211927" class="phone size-19 f-weight-400">0800 211 927</a>
+                        <a href="mailto:contact@forstudy.space"
+                            class="link-contact size-19 f-weight-400 text-blue hover-pink">contact@forstudy.space</a>
+                    </div>
+                    <hr class="underline">
+                    <a href="https://www.facebook.com/" target="_blank" class="flex items-center gap-10 logo-link">
+                        <svg class="logo-blue" width="38" height="38" viewBox="0 0 38 38" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path class="fb-logo"
+                                d="M38 19.1161C38 8.55857 29.4934 0 19 0C8.50658 0 0 8.55857 0 19.1161C0 28.6575 6.94803 36.5659 16.0312 38V24.6419H11.207V19.1161H16.0312V14.9046C16.0312 10.1136 18.8678 7.46723 23.2078 7.46723C25.2866 7.46723 27.4609 7.84059 27.4609 7.84059V12.545H25.0651C22.7048 12.545 21.9688 14.0185 21.9688 15.5302V19.1161H27.2383L26.3959 24.6419H21.9688V38C31.052 36.5659 38 28.6575 38 19.1161Z"
+                                fill="#24A3FF" />
+                        </svg>
+                        <p class="link-contact size-12 space-1px text-blue">Our page <br> on facebook</p>
+                    </a>
+                </div>
+                <div class="form-wrap">
+
+                    <form target="_blank" class="form flex flex-column gap-30">
+                        <h1 class="contact-title"> We would like to help you</h1>
+                        <div class="flex flex-column gap-15">
+                            <label>
+                                <input id="fio" type="text" name="name" placeholder="Name" class="form-field"
+                                    onkeyup="checkParams()" required>
+
+                            </label>
+                            <label>
+                                <textarea id="text" placeholder="Message" class="form-field" required></textarea>
+                            </label>
+                        </div>
+                        <div class="flex flex-column gap-15">
+
+                            <h3 class="size-14 text-gray space-1px ">How to answer you?</h3>
+                            <label>
+                                <input id="phone" type="tel" name="phone" placeholder="Phone number" class="form-field"
+                                    pattern="[0-9]{10,12}" onkeyup="checkParams()" required>
+                            </label>
+                            <label>
+                                <input id="email" type="email" name="email" placeholder="Email" class="form-field"
+                                    onkeyup="checkParams()" required>
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-send" disabled>Send message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer class="footer">
         <div class="container wide">

@@ -11,8 +11,7 @@
   background: rgba(245, 245, 250, 0.2);
 }
 
-.gradient-wrapper {
-  background-color: var(--color-white);
+.body .gradient-wrapper {
   background: linear-gradient(
     228.57deg,
     #323264 11.93%,
@@ -23,7 +22,7 @@
   position: relative;
   margin-bottom: 20px;
 }
-.gradient-wrapper::before {
+.body .gradient-wrapper::before {
   content: "";
   display: block;
   position: absolute;
@@ -35,7 +34,7 @@
   background: #cacadb;
   z-index: -1;
 }
-.gradient-wrapper::after {
+.body .gradient-wrapper::after {
   content: "";
   display: block;
   position: absolute;
