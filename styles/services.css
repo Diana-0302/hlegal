@@ -80,10 +80,6 @@
   top: 12px;
 }
 
-.btn {
-  padding: 18px 30px;
-}
-
 @media (min-width: 610px) {
   .services-items {
     columns: 2;

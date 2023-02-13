@@ -11,7 +11,6 @@
   --separator-color-gray: #e6e6f0;
   --color-white: #ffffff;
   --color-black: #000000;
-  --red-text-gradient: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
 }
 * {
   margin: 0;
@@ -120,9 +119,7 @@ textarea {
   grid-area: f;
   justify-content: center;
 }
-.current-page {
-  color: var(--accent-color);
-}
+
 .hover-pink:hover {
   color: var(--accent-color);
 }

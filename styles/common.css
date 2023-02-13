@@ -28,6 +28,9 @@
   gap: 15px;
   list-style: none;
 }
+.nav-item.current-page {
+  color: var(--accent-color);
+}
 .wrap-nav {
   position: relative;
 }
@@ -132,11 +135,9 @@
 .footer {
   background-color: var(--bg-color-gray);
   padding-top: var(--container-space);
+  padding-bottom: var(--container-space);
 }
-.footer .container {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
+
 .footer .container .footer-wrap {
   grid-template-areas:
     "d"
@@ -197,6 +198,9 @@
     padding-bottom: 7px;
     background: var(--bg-color-gray);
     border-radius: 12px;
+  }
+  .nav .nav-list .nav-item.current-page {
+    color: var(--accent-color);
   }
   .burger ~ .nav .nav-list .nav-item:hover {
     color: var(--accent-color);
@@ -338,8 +342,7 @@
 }
 
 .btn {
-  padding-top: 18px;
-  padding-bottom: 18px;
+  padding: 18px 30px;
   color: var(--color-white);
   background-color: var(--color-blue);
   border: 1px solid var(--color-blue);
