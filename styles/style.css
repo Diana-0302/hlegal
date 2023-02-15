@@ -130,3 +130,14 @@ textarea {
 .hidden {
   display: none;
 }
+@media (min-width: 610px) {
+  :root {
+    --container-space: 60px;
+  }
+}
+@media (min-width: 1999px) {
+  :root {
+    --container-width: 1660px;
+    --container-wide-width: 1900px;
+  }
+}

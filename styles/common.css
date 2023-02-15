@@ -212,10 +212,6 @@
   }
 }
 @media (min-width: 610px) {
-  /*767*/
-  :root {
-    --container-space: 60px;
-  }
   .burger.active ~ .nav {
     background-color: var(--color-white);
   }
@@ -314,20 +310,6 @@
 .card-wrapper {
   grid-template-columns: repeat(1, 1fr);
   gap: var(--container-space);
-}
-
-.public-card {
-  background-color: var(--color-white);
-  border-radius: 8px;
-}
-.public-text {
-  padding: 30px;
-}
-
-.public-card img {
-  height: 200px;
-  border-radius: 8px 8px 0px 0px;
-  object-fit: cover;
 }
 
 @media (min-width: 610px) {

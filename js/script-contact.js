@@ -18,8 +18,8 @@ function checkParams() {
 }
 
 $(".btn-send").click(function () {
-  $(".btn").text("Sent");
-  $(".btn").css({
+  $(".btn.btn-send").text("Sent");
+  $(".btn.btn-send").css({
     "background-color": "#EDEDF7",
     color: "#323264",
     "box-shadow": "none",

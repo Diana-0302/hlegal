@@ -15,7 +15,7 @@
 .card-wrap {
   flex-direction: column;
   gap: 40px;
-  border-left: 4px solid var(--text-color-gray);
+  border-left: 4px solid var(--separator-color-gray);
   padding-left: 30px;
 }
 .card {
@@ -31,7 +31,7 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
-.about-wrapper:last-of-type {
+.about-wrapper:last-child {
   gap: 30px;
 }
 
@@ -89,6 +89,7 @@
   color: var(--color-blue);
   opacity: 1;
 }
+
 @media (min-width: 610px) {
   .desktop-slider {
     display: block;
@@ -103,11 +104,10 @@
     font-size: 46px;
     letter-spacing: 63px;
   }
-  .slick-initialized .slick-slide {
-    justify-content: space-between;
-    gap: 40px;
-  }
+
   .slide-pic {
+    margin-left: 20px;
+    margin-right: 20px;
     width: 100%;
   }
 }
@@ -121,12 +121,14 @@
     max-width: 486px;
   }
   .card-wrap {
+    height: 322px;
     width: 354px;
   }
-  .about-wrapper:last-of-type {
+
+  .second.about-wrapper {
     gap: 60px;
   }
-  .title:last-of-type {
+  .second .title {
     width: 362px;
   }
   .picture {
@@ -153,7 +155,7 @@
 }
 @media (min-width: 1699px) {
   .wrap {
-    max-width: 992px;
+    max-width: 938px;
   }
   .picture {
     min-height: 584px;

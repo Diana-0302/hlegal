@@ -5,6 +5,7 @@
 .contact-section .container {
   flex-direction: column;
   gap: var(--container-space);
+  max-width: 1200px;
 }
 .logo-link:hover .fb-logo {
   fill: var(--accent-color);
@@ -25,6 +26,11 @@
   .contact-section .container .wrapper,
   .contact-section .container .form-wrap {
     width: 50%;
+  }
+}
+@media (min-width: 1799px) {
+  .contact-section .container {
+    max-width: calc(var(--container-width) + var(--container-space) * 2);
   }
 }
 

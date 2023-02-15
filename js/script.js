@@ -20,6 +20,7 @@ $("#firstSlider").slick({
   dots: true,
   arrows: false,
 });
+
 $("#secondSlider").slick({
   dots: true,
   arrows: false,

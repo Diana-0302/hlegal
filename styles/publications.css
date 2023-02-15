@@ -37,12 +37,13 @@
   border-radius: 10px;
   cursor: pointer;
 }
-.btn-public.active {
-  background-color: var(--color-white);
-}
 .btn-public:hover {
   background-color: var(--bg-color-gray);
 }
+.btn-public.active {
+  background-color: var(--color-white);
+}
+
 @media (min-width: 610px) {
   .section-publications {
     margin-top: 60px;
